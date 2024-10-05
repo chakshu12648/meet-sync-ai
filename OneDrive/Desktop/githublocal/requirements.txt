@@ -1,0 +1,9 @@
+discord.py
+fastapi
+uvicorn
+asyncpg
+python-dotenv
+requests
+pyngrok
+openai
+nest-asyncio
