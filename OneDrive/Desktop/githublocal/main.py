@@ -48,7 +48,7 @@ POSTGRES_HOST = os.getenv("POSTGRES_HOST")
 POSTGRES_USER = os.getenv("POSTGRES_USER")
 POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD")
 POSTGRES_DB = os.getenv("POSTGRES_DB")
-openai.api_key = os.getenv("OPENAI_API_KEY", "sk-n_U1FuEr4S5BmFSuab4aqP0xQTEJIxKy-BKyMqeiL-T3BlbkFJSEJMU1RcXAnLPzSCi0pVoTdoNomd6hMdhKWgcsDlgA")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # File to store refresh token
 TOKEN_FILE = "token.json"
